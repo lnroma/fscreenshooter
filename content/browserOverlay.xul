@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://xulphpsrc/skin/browserOverlay.css" ?>
+
+<!DOCTYPE overlay SYSTEM
+  "chrome://xulphpsrc/locale/browserOverlay.dtd">
+
+<overlay id="xulphpsrc-browser-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript"
+    src="chrome://xulphpsrc/content/browserOverlay.js" />
+
+  <toolbar>
+    <hbox>
+    <toolbarbutton id="xulphpsrc-button" class="button-screen"
+                   label="Скриншот" tooltiptext="Скриншот"
+                   oncommand="XULPHPsrcChrome.BrowserOverlay.makeScreen(event);"/>
+    </hbox>
+  </toolbar>
+</overlay>

@@ -1,0 +1,4 @@
+content   xulphpsrc                content/
+skin      xulphpsrc  classic/1.0   skin/
+
+overlay chrome://browser/content/browser.xul  chrome://xulphpsrc/content/browserOverlay.xul

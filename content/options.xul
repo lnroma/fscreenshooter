@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<prefwindow id="xulphpsrc-prefs"
+            title="phpsrc api yandex settings"
+            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <prefpane id="phpsrc_api_set" label="PHPsrc setting api yandex">
+        <preferences>
+            <preference id="phpsrc_login" name="extensions.xulphpsrc.login" type="string"/>
+        </preferences>
+
+        <preferences>
+            <preference id="phpsrc_pass" name="extensions.xulphpsrc.pass" type="string"/>
+        </preferences>
+
+        <hbox align="center">
+            <label control="phpsrc_login_label" value="Яндекс логин: "/>
+            <textbox preference="phpsrc_login" id="phpsrc_login_label" maxlength="40"/>
+
+            <label control="phpsrc_pass_label" value="Яндекс пароль: "/>
+            <textbox preference="phpsrc_pass" id="phpsrc_pass_label" maxlength="40"/>
+
+        </hbox>
+
+
+    </prefpane>
+
+</prefwindow>
